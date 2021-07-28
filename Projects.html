@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,8 +10,57 @@
     <link href="./src/Styles/fonts.css" rel="stylesheet">
     <link href="./src/Styles/index.css" rel="stylesheet">
     <link href="./src/Styles/Normalize.css" rel="stylesheet">
-    <title>Certificates</title>
+    <title>Projects</title>
     <style>
+        .flex-container_1__image {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            max-width: 435px;
+            height: 300px;
+            width: 900px;
+            position: relative;
+            background-position: left;
+        }
+
+        .flex-container_1 {
+            margin: 15px;
+            width: 1170px;
+            height: 435px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+
+        .flex-container_2 {
+            margin: 15px;
+            width: 1170px;
+            height: 435px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+
+        .flex-container_3 {
+            margin: 15px;
+            width: 1170px;
+            height: 435px;
+            top: 353px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+
+        .flex-item {
+            background-color: #E5E5E5;
+            display: inline;
+            margin: 30px;
+            padding: 20px;
+            text-align: start;
+        }
+
         .nav-link {
             font-family: "TTHoves-Medium";
             color: #333333;
@@ -50,21 +99,52 @@
             <li><a href="#" class="nav-link">КОНТАКТЫ</a></li>
         </ul>
     </header>
-    <h1 class="heading">
-        <p class="heading__firstpart">Сертификаты</p>
-        <p class="heading__secondpart">КОМПАНИИ</p>
+    <h1>НАШИ<br>
+        <b>ПРОЕКТЫ</b>
     </h1>
-    <main>
-        <div class="certificate-container">
-            <img scr="../icons/1.png" alt="certificate1">
-            <img scr="" alt="certificate2">
-            <img scr="" alt="certificate3">
+    <div>
+        <div class="flex-container_1">
+            <div><img src="./src/img/products/1.jpg" alt="building1" class="flex-container_1__image"></div>
+            <div class="flex-item">
+                <h3>Общеобразовательная школа</h3>
+                <p>Значимость этих проблем настолько очевидна,<br>
+                    что консультация с широким активом играет важную<br>
+                    роль в формировании новых предложений. Повседневная<br>
+                    практика показывает, что реализация намеченных плановых<br>
+                    заданий в значительной степени обуславливает создание<br>
+                    модели развития. Идейные соображения высшего<br>
+                    порядка, а также рамки и место обучения кадров<br>
+                    обеспечивает широкому кругу (специалистов) участие<br>
+                    в формировании новых предложений.</p>
+                <button>Смотреть</button>
+            </div>
         </div>
-        <div class="arrowcontainer">
-            <div class="numberslide">тут будут цифры</div>
-            <div class="arrowslide">тут будут стрелочки</div>
+        <div class="flex-container_2">
+            <div><img src="./src/img/products/2.jpg" alt="building2" class="flex-container_1__image"></div>
+            <div class="flex-item">
+                <h3>Паркинг на 500 автомобилей</h3>
+                <p>Равным образом консультация с широким активом требуют<br>
+                    определения и уточнения модели развития. Повседневная<br>
+                    практика показывает, что укрепление и развитие<br>
+                    структуры обеспечивает широкому кругу (специалистов)<br>
+                    участие в формировании дальнейших направлений развития.</p>
+                <button>Смотреть</button>
+            </div>
         </div>
-    </main>
+        <div class="flex-container_3">
+            <div><img src="./src/img/products/3.jpg" alt="building3" class="flex-container_1__image"></div>
+            <div class="flex-item">
+                <h3>Проект интерьера офиса</h3>
+                <p>Равным образом постоянный количественный рост и сфера<br>
+                    нашей активности играет важную роль в формировании<br>
+                    системы обучения кадров, соответствует насущным<br>
+                    потребностям. Не следует, однако забывать, что<br>
+                    дальнейшее развитие различных форм деятельности<br>
+                    способствует подготовки и реализации форм развития.</p>
+                <button>Смотреть</button>
+            </div>
+        </div>
+    </div>
     <footer class="pt-4 my-md-5 pt-md-5 bg-dark  text-white container-fluid">
         <div class="row">
             <div class="col-12 col-md">

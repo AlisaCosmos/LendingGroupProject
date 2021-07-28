@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,72 +12,108 @@
     <link href="./src/Styles/Normalize.css" rel="stylesheet">
     <title>Contact</title>
     <style>
-         * {
+        * {
             box-sizing: border-box;
         }
 
         .nav-link {
-            font-family: "TTHoves-Medium";
-            color: #333333;
             font-size: 1em;
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #333333;
+        }
+
+        .nav-link.underline {
+            text-decoration-line: overline underline;
         }
 
         .nav-foot {
-            font-family: "TTHoves-Medium";
-            color: rgba(255, 255, 255, 1);
+            font-family: TT Hoves;
+            font-style: normal;
+            line-height: 20px;
+            color: #FFFFFF;
             font-size: 1.5em;
         }
 
         .link-foot {
-            font-family: "TTHoves-Ligt";
-            color: rgba(255, 255, 255, 1);
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
             font-size: 1em;
         }
 
         .d-block {
-            font-family: "OpenSans-Regular";
-
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 22px;
+            color: rgba(200, 200, 200, 0.5);
         }
 
-        .contc{
-            color:  #BDBDBD;
-            font-family:"TTHoves-Light";
-            font-size:5em;
-            margin: 0;
-            padding: 0;
-            font-weight:1em;
-        }
-
-        .info{
-            font-family: "TTHoves-Bold";
-            color:#333333;
+        .contc {
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 64px;
+            color: #BDBDBD;
             font-size: 5em;
             margin: 0;
             padding: 0;
         }
 
-        .digP{
-            font-family: "TTHoves-DemiBold";
-            color:#333333;  
+        .info {
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 64px;
+            color: #333333;
+            font-size: 5em;
+            margin: 0;
+            padding: 0;
+        }
+
+        .digP {
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 22px;
+            color: #333333;
             font-size: 1em;
-}
+        }
 
-.adresse{
-    font-family:"TTHoves-Light";
-    color:#333333; 
-    font-weight: 3em;
-}
+        .adresse {
+            font-family: TT Hoves;
+            font-style: normal;
+            line-height: 22px;
+            color: #333333;
+        }
 
-.tel{
-    font-family:"TTHoves-Bold";
-}
+        .tel {
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1em;
+            line-height: 22px;
+            color: #333333;
+        }
 
-.mail{
-    font-family:"TTHoves-Light" ;
-}
-
+        .mail {
+            font-family: TT Hoves;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 20px;
+            color: #333333;
+        }
     </style>
 </head>
+
 <body>
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-around py-3 mb-4">
         <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
@@ -87,29 +124,30 @@
             <li><a href="#" class="nav-link">ГАЛЕРЕЯ</a></li>
             <li><a href="#" class="nav-link">ПРОЕКТЫ</a></li>
             <li><a href="#" class="nav-link">СЕРТИФИКАТЫ</a></li>
-            <li><a href="#" class="nav-link">КОНТАКТЫ</a></li>
+            <li><a href="#" class="nav-link underline">КОНТАКТЫ</a></li>
         </ul>
     </header>
     <main>
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.9844510174676!2d73.08341361493493!3d49.823957440189105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424346c3b32ffcaf%3A0x41481e634d919f9e!2z0YPQuy4g0KLQtdC70LXQstC40LfQuNC-0L3QvdCw0Y8gMTAsINCa0LDRgNCw0LPQsNC90LTQsCAxMDAwMDAsINCa0LDQt9Cw0YXRgdGC0LDQvQ!5e0!3m2!1sru!2sde!4v1627481873081!5m2!1sru!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-              </div>
-              <div class="col-lg-6">
-                <h2 class="contc display-5 lh-1 mb-3 m-0 p-0">Контактная</h2>
-                <h2 class="info lh-1 fw-bold mb-3 p-0 m-0">Информация</h2>
-                <p class="digP font-weight-bold">«Digital Project» </p>
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.9844510174676!2d73.08341361493493!3d49.823957440189105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424346c3b32ffcaf%3A0x41481e634d919f9e!2z0YPQuy4g0KLQtdC70LXQstC40LfQuNC-0L3QvdCw0Y8gMTAsINCa0LDRgNCw0LPQsNC90LTQsCAxMDAwMDAsINCa0LDQt9Cw0YXRgdGC0LDQvQ!5e0!3m2!1sru!2sde!4v1627481873081!5m2!1sru!2sde"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="contc display-5 lh-1 mb-3 m-0 p-0">КОНТАКТНАЯ</h2>
+                    <h2 class="info lh-1 fw-bold mb-3 p-0 m-0">ИНФОРМАЦИЯ</h2>
+                    <p class="digP font-weight-bold">«Digital Project» </p>
                     <p class="adresse">г. Караганда, ул. Телевизионная 10</p>
                     <p class="tel font-weight-bold">+7 (701) 77 76 811</p>
                     <p class="mail">Galym.sultanov@mail.ru</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Обратная связь</button>
-                  
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Обратная связь</button>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
     </main>
     <footer class="pt-4 my-md-5 pt-md-5 bg-dark  text-white container-fluid">
         <div class="row">
@@ -161,4 +199,5 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
 </body>
+
 </html>

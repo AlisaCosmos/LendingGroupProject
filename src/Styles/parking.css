@@ -1,0 +1,208 @@
+* {
+    font-family: 'TT Hoves', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header__container {
+    height: 102px;
+}
+
+.logo__link {
+    display: block;
+    padding-top: 30px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu__link {
+    font-size: 12px;
+    font-weight: 400;
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.menu__link-activ {
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+.parking__container {
+    padding-bottom: 135px;
+    height: 1726px;
+}
+
+.parking__title {
+    padding-top: 63px;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
+    text-transform: uppercase;
+}
+
+.parking__subtitle {
+    font-weight: 700px;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.parking__line {
+    padding-top: 30px;
+}
+
+.parking__blocks {
+    padding-top: 30px;
+    max-height: 435px;
+}
+
+.parking__block2 {
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+
+.parking__discr {
+    max-height: 428px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    overflow: hidden;
+    /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+
+}
+
+.parking__block3 {
+    padding-top: 30px;
+}
+
+.footer__container {
+    height: 417px;
+    background: #2C2C2C;
+}
+
+.footer__top {
+    padding-top: 58px;
+    height: 347px;
+}
+
+.footer__title {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.footer__nav {
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.nav__item {
+    list-style-type: none;
+
+}
+
+.nav__link {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.social__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+
+}
+
+.social__item {
+    list-style-type: none;
+}
+
+.contacts {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+.contacts__text {
+    padding-top: 25px;
+}
+
+.phone__link {
+
+    padding-top: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+.mail__link {
+
+    padding-top: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer__bottom {
+    padding-top: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+    color: rgba(200, 200, 200, 0.5);
+    text-align: center;
+    border-top: 1px solid #FFFFFF;
+}

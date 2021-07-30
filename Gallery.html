@@ -128,9 +128,9 @@
             justify-content: space-between;
         }
 
-        .page-selector__previous:hover,
-        .page-selector__next:hover {
-            background-color: #F9F9F9;
+        :hover.pagination__last-page,
+        :hover.pagination__first-page {
+            text-decoration: none;
             color: black;
         }
 
@@ -148,20 +148,40 @@
             color: black;
         }
 
+        :hover .page-selector__previous,
+        :hover.page-selector__next {
+            text-decoration: none;
+            color: black;
+        }
+
         .slash {
             display: flex;
             margin: 0% 10%;
         }
 
         @media screen and (max-width: 635px) {
+            .heading {
+                align-items: center;
+            }
 
             .heading__firstpart,
             .heading__secondpart {
-                font-size: 60px;
+                font-size: 50px;
+            }
+
+            .gallery {
+                justify-content: center;
             }
 
             .pagination-container {
                 flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .pagination {
+                justify-content: center;
             }
 
             .page-selector {
@@ -170,12 +190,30 @@
         }
 
         @media screen and (min-width: 636px) and (max-width: 1000px) {
+
+            .heading,
+            .gallery,
             .pagination-container {
-                justify-content: left;
+                margin-left: 0;
+            }
+
+            .heading {
+                align-items: center;
+            }
+
+            .gallery {
+                justify-content: center;
+            }
+
+            .pagination-container {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
             }
 
             .pagination {
-                margin-right: 30%;
+                justify-content: center;
             }
 
             .pagination__first-page {
@@ -324,7 +362,7 @@
                 <ul class="list-unstyled text-small">
                     <li class="mb-1"><a class="link-foot text-decoration-none" href="#"> <img
                                 src="src/img/gallery/icons/Vector.svg" alt="...">
-                            100000, Республика Казахстан, г. Караганда, ул. Телевизионная 10</a></li>
+                            100000, Республика Казахстан, г.Караганда, ул. Телевизионная 10</a></li>
                     <li class="mb-1"><a class="link-foot text-decoration-none" href="#"><img
                                 src="src/img/gallery/icons/Tel.svg" alt="...">
                             +7 (701) 77 76 811</a></li>
